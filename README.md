@@ -1165,17 +1165,17 @@ A continuación se describen los componentes electrónicos utilizados en el proy
 ### ESP32 Wrover
 La **ESP32 Wrover** es el microcontrolador principal del proyecto. Se encarga de ejecutar el programa del videojuego, controlar la matriz de LEDs, leer las entradas del botón y gestionar la lógica del juego. Actúa como el cerebro del sistema.
 
-<img src="https://github.com/valalj88/Arduino/blob/main/Archivos/Esp32.png" alt="Página Tareas" width="700">
+<img src="https://github.com/valalj88/Arduino/blob/main/Archivos/Esp32.jpg" alt="Página Tareas" width="700">
 
 ### Matriz LED 8x8
 La **matriz de LEDs** es el elemento visual principal del juego. En ella se mostrarán los bloques que se mueven horizontalmente y que el jugador debe alinear para avanzar niveles. Permite representar gráficamente el funcionamiento del videojuego Stack Game.
 
-<img src="https://github.com/valalj88/Arduino/blob/main/Archivos/MatrizLED.png" alt="Página Tareas" width="700">
+<img src="https://github.com/valalj88/Arduino/blob/main/Archivos/MatrizLED.jpg" alt="Página Tareas" width="700">
 
 ### Pantalla LCD
 La **pantalla LCD** se utilizará para mostrar información adicional al jugador, como la puntuación, el nivel actual o mensajes del sistema como *Game Over* o *Inicio del juego*. Esto mejora la experiencia del usuario al proporcionar información clara durante la partida.
 
-<img src="https://github.com/valalj88/Arduino/blob/main/Archivos/LCDScreen.png" alt="Página Tareas" width="700">
+<img src="https://github.com/valalj88/Arduino/blob/main/Archivos/LCDScreen.jpg" alt="Página Tareas" width="700">
 
 ### Botón Pulsador
 El **botón pulsador** permite la interacción del jugador con el sistema. Cuando el jugador presiona el botón, se detiene la fila de bloques en movimiento para intentar alinearla con la fila anterior.
@@ -1185,22 +1185,22 @@ El **botón pulsador** permite la interacción del jugador con el sistema. Cuand
 ### Resistencias (10kΩ)
 Las **resistencias** se utilizan para estabilizar la señal del botón. En este proyecto se pueden utilizar como resistencias **pull-down** o **pull-up** para evitar lecturas erróneas cuando el botón no está presionado.
 
-<img src="https://github.com/valalj88/Arduino/blob/main/Archivos/Resistencias.png" alt="Página Tareas" width="700">
+<img src="https://github.com/valalj88/Arduino/blob/main/Archivos/Resistencias.jpg" alt="Página Tareas" width="700">
 
 ### Protoboard
 La **protoboard** permite montar el circuito electrónico sin necesidad de soldar los componentes. Facilita realizar pruebas, modificaciones y ajustes durante el desarrollo del proyecto.
 
-<img src="https://github.com/valalj88/Arduino/blob/main/Archivos/Protoboard.png" alt="Página Tareas" width="700">
+<img src="https://github.com/valalj88/Arduino/blob/main/Archivos/Protoboard.jpg" alt="Página Tareas" width="700">
 
 ### Jumpers
 Los **cables Dupont** se utilizan para realizar las conexiones entre la ESP32, la matriz LED, el botón, la pantalla LCD y la protoboard. Permiten transmitir las señales eléctricas entre los distintos componentes del circuito.
 
-<img src="https://github.com/valalj88/Arduino/blob/main/Archivos/Jumpers.png" alt="Página Tareas" width="700">
+<img src="https://github.com/valalj88/Arduino/blob/main/Archivos/Jumpers.jpg" alt="Página Tareas" width="700">
 
 ### Cable USB
 El **cable USB** se utiliza para alimentar la placa ESP32 desde el ordenador y para cargar el programa desarrollado en el microcontrolador mediante el Arduino IDE.
 
-<img src="https://github.com/valalj88/Arduino/blob/main/Archivos/CableUSB.png" alt="Página Tareas" width="700">
+<img src="https://github.com/valalj88/Arduino/blob/main/Archivos/CableUSB.jpg" alt="Página Tareas" width="700">
 
 </details>
 </details>
