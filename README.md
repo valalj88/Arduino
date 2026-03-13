@@ -937,6 +937,7 @@ El sistema estará compuesto por:
 - Un botón de control
 - La placa ESP32 Wrover
 - Botón para jugar
+- LCD Screen
 - Estructura física tipo mini-arcade decorada
 
 El proyecto combina **programación, electrónica y diseño físico**, integrando lógica de videojuegos en hardware embebido.
