@@ -937,6 +937,13 @@ https://youtu.be/FvsWhVsc19c
 <details>
 	<summary>Esquema eléctrico y materiales utilizados</summary>
 
+# ESQUEMA ELÉCTRICO
+
+---
+
+<img src="https://github.com/valalj88/Arduino/blob/main/Captura%20de%20pantalla%202026-03-13%20123832.png" alt="Página Tareas" width="700">
+
+---
 
 
 </details>
