@@ -1,8 +1,11 @@
-Introducción Arduino
+# ARDUINO
+
+---
+<details>
+<summary>Introducción Arduino</summary>
 <p align="center">
 <img src="https://github.com/valalj88/Web-de-recetas-con-buscador-inteligente/blob/main/Archivos/BannerArduino.jpg" alt="Mi banner" width="800" height="200">
   </p>
-
 <br>
 
 **¿Que es arduino?**
@@ -130,7 +133,7 @@ Este lenguaje solo permite controlar un par de objetos básicos como: Luces Leds
 **¿Qué es el Arduino IDE?**
 
 Es el programa que usas en el ordenador para escribir, compilar y cargar código en una placa Arduino y este software es totalmente gratuito.
-
+</details>
 
 <details>
 <summary>Actividades</summary>
@@ -902,6 +905,7 @@ server.send(404,"text/plain", "No hay respuesta");
 ![IMG_4173](https://github.com/user-attachments/assets/8c7457c7-f19e-4d28-9e9d-a97222a2cd94)
 
 </details>
+</details>
 
 <details>
 	<summary>PROYECTO</summary>
@@ -930,12 +934,3 @@ https://youtu.be/FvsWhVsc19c
   </tr>
 </details>
 </details>
-</details>
-
-ordenar puntos
-Explicar porque PIhole
- - Todos los servicios igual (mirar guia manual)
-Apache tambien
-PHP e "incidencias de PHP explicar  y solución"
-API explicar las opciones que teniamos y porque
-Mayus minus "Diagrama de red"
