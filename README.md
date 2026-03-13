@@ -933,4 +933,11 @@ https://youtu.be/FvsWhVsc19c
 | Margen de seguridad |  |  |  |  |  |  |  |  | ██████ |
   </tr>
 </details>
+<br>
+<details>
+	<summary>Esquema eléctrico y materiales utilizados</summary>
+
+
+
+</details>
 </details>
