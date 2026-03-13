@@ -1202,15 +1202,5 @@ El **cable USB** se utiliza para alimentar la placa ESP32 desde el ordenador y p
 
 <img src="https://github.com/valalj88/Arduino/blob/main/Captura%20de%20pantalla%202026-03-13%20123832.png" alt="Página Tareas" width="700">
 
-### Buzzer (Opcional)
-El **buzzer** se puede utilizar para generar efectos de sonido durante el juego, como sonidos al colocar correctamente un bloque o al producirse un *Game Over*.
-
-<img src="https://github.com/valalj88/Arduino/blob/main/Captura%20de%20pantalla%202026-03-13%20123832.png" alt="Página Tareas" width="700">
-
-### Estructura tipo Mini-Arcade
-Se utilizará una **estructura de cartón o madera** para construir una pequeña carcasa con aspecto de máquina arcade. Esta estructura servirá para alojar los componentes electrónicos y mejorar la presentación del proyecto.
-
-<img src="https://github.com/valalj88/Arduino/blob/main/Captura%20de%20pantalla%202026-03-13%20123832.png" alt="Página Tareas" width="700">
-
 </details>
 </details>
