@@ -909,13 +909,225 @@ server.send(404,"text/plain", "No hay respuesta");
 
 <details>
 	<summary>PROYECTO</summary>
-	
+<br>
+<details>
+	<summary>LINKS</summary>
 https://es.aliexpress.com/item/1005008005112441.html?spm=a2g0o.productlist.main.3.49815PYP5PYPU4&algo_pvid=c9df27e4-4ec3-462e-a19c-4d10c06e8dc6&algo_exp_id=c9df27e4-4ec3-462e-a19c-4d10c06e8dc6-		2&pdp_ext_f=%7B%22order%22%3A%225285%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%2114.16%210.99%21%21%21111.74%217.80%21%40211b6a7a17721932195753311ea003%2112000043231311504%21sea%21ES%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3Aa26c3c1%3Bm03_new_user%3A-29895%3BpisId%3A5000000197846831&curPageLogUid=MiK9wu0n3W2F&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008005112441%7C_p_origin_prod%3A
+
+https://docs.sunfounder.com/projects/summary-of-fun-projects/en/latest/arduino/stacker_blocks2.0.html
 
 https://youtu.be/FvsWhVsc19c
 
 </details>
 
+<details>
+	<summary>Briefing de ideas</summary>
+
+# PROYECTO: STACK GAME ARCADE CON ESP32 WROVER
+
+## Presentación de la Idea
+
+El proyecto consiste en el desarrollo de un videojuego tipo **Stack Game Arcade** visualizado en una **matriz de LEDs**.
+
+El juego simula la clásica máquina arcade donde una fila de bloques luminosos se mueve horizontalmente de derecha a izquierda sobre una matriz LED. El jugador debe presionar un botón para detener la fila e intentar alinearla con la fila anterior. Las partes que no coincidan se eliminan. El objetivo es llegar hasta la parte superior sin perder todos los bloques.
+
+El sistema estará compuesto por:
+
+- Una matriz LEDs
+- Un botón de control
+- La placa ESP32 Wrover
+- Botón para jugar
+- Estructura física tipo mini-arcade decorada
+
+El proyecto combina **programación, electrónica y diseño físico**, integrando lógica de videojuegos en hardware embebido.
+
+---
+
+# Objetivos del Proyecto
+
+## Objetivo General
+
+Desarrollar un videojuego interactivo en una plataforma embebida utilizando una **ESP32** y una **matriz LED**.
+
+## Objetivos de Aprendizaje
+
+Este proyecto nos permitirá:
+
+- Comprender el uso de microcontroladores avanzados (ESP32)
+- Implementar control de matrices LED
+- Aplicar estructuras de programación utilizando videojuegos como ejemplo
+- Gestionar entradas digitales mediante botones
+- Trabajar con temporización sin bloquear el programa
+- Diseñar un sistema completo desde hardware hasta software
+
+Además, mejora habilidades en:
+
+- Resolución de problemas
+- Diseño modular
+- Depuración de errores
+- Planificación de proyectos tecnológicos
+
+---
+
+# Requisitos Técnicos
+
+## Hardware
+
+- **Placa:** ESP32 Wrover
+- **Matriz LED:**
+  - Opción 1: 8x8 con **MAX7219**
+  - Opción 2: 8x8 **WS2812B (Neopixel)**
+- 1 botón pulsador
+- Resistencias (10kΩ para pull-down si no se usa pull-up interno)
+- Protoboard
+- Cables Dupont
+- LCD Screen
+- Cable USB
+- (Opcional) Buzzer
+- (Opcional) Caja de cartón o madera para estructura arcade
+
+## Software
+
+- **Arduino IDE**
+- Soporte para **ESP32 Wrover**
+
+### Librerías posibles
+
+- `MD_MAX72XX` (para MAX7219)
+- `Adafruit_NeoPixel` (para WS2812B)
+- `SPI.h` (si se usa MAX7219)
+
+Otros componentes usados en el desarrollo:
+
+- Botón
+- Matriz LEDs
+- Jumpers macho-hembra
+
+---
+
+# Material Adicional
+
+- Cartón o madera para carcasa
+- Pistola de silicona
+- Material de oficina para diseño frontal
+- Impresiones decorativas
+
+Estos materiales pueden obtenerse en:
+
+- Tiendas de electrónica
+- Amazon
+- Ferreterías
+- Papelerías
+
+---
+
+# Metodología de Trabajo
+
+## Fases del Proyecto
+
+### Fase 1: Diseño
+
+- Definir tamaño de matriz
+- Definir reglas exactas del juego
+- Diseñar esquema de conexiones
+- Planificar estructura del código
+
+### Fase 2: Montaje Hardware
+
+- Conectar matriz LED
+- Conectar botón
+- Verificar alimentación
+- Realizar pruebas básicas de encendido
+
+### Fase 3: Programación Base
+
+- Inicializar matriz
+- Mostrar patrón simple
+- Leer botón correctamente
+- Crear movimiento horizontal automático
+
+### Fase 4: Lógica del Juego
+
+- Implementar almacenamiento de filas en arrays
+- Comparar fila actual con la anterior
+- Recortar bloques no coincidentes
+- Detectar **Game Over**
+- Implementar sistema de puntuación
+
+### Fase 5: Mejoras
+
+- Añadir sonido
+- Aumentar velocidad progresiva
+- Animación de Game Over
+- Guardar récord
+
+### Fase 6: Documentación
+
+- Capturas del montaje
+- Explicación del código
+- Esquemas eléctricos
+- Conclusiones
+
+---
+
+# Recursos Disponibles
+
+## Referencias Técnicas
+
+- Documentación oficial de **ESP32**
+- Tutoriales de matrices LED
+- Ejemplos incluidos en las librerías
+- Foros de Arduino
+- Ejemplos en GitHub
+
+## Videotutoriales
+
+Buscar en YouTube:
+
+- "ESP32 LED matrix tutorial"
+- "Stack game Arduino project"
+- "MAX7219 Arduino example"
+- "Neopixel matrix ESP32"
+
+---
+
+# Conceptos Clave a Revisar
+
+- Arrays bidimensionales
+- Máquina de estados
+- Temporización con `millis()`
+- Interrupciones (opcional)
+- Gestión de memoria en ESP32
+
+---
+
+# Desafíos y Soluciones Previstas
+
+### Problema 1: Rebote del botón
+
+**Solución:**  
+Implementar *debounce* por software utilizando temporización.
+
+### Problema 2: Parpadeo en la matriz
+
+**Solución:**  
+Actualizar la matriz solo cuando sea necesario y evitar delays largos.
+
+### Problema 3: Desincronización del movimiento
+
+**Solución:**  
+Usar control de tiempo basado en `millis()`.
+
+### Problema 4: Consumo de corriente en WS2812B
+
+**Solución:**  
+Limitar el brillo y usar una fuente de alimentación estable.
+
+### Problema 5: Dificultad en la comparación de filas
+
+**Solución:**  
+Usar operaciones **AND bit a bit** si las filas se representan como enteros.
+</details>
 <details>
 	<summary>Plan De Trabajo</summary>
 	
@@ -933,7 +1145,7 @@ https://youtu.be/FvsWhVsc19c
 | Margen de seguridad |  |  |  |  |  |  |  |  | ██████ |
   </tr>
 </details>
-<br>
+
 <details>
 	<summary>Esquema eléctrico y materiales utilizados</summary>
 
